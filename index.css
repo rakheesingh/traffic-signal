@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#traffic{
+    width: max-content;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem ;
+    border: 1px solid black;
+}
+
+.trafficEachLight {
+    border: 2px solid black;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    box-shadow: inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
